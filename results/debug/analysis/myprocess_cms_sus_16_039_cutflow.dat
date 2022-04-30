@@ -1,0 +1,34 @@
+# cms
+# cms pss sus-16-039
+# 3 leptons
+# sqrt(s) = 13 TeV
+# int(L) = 35.9fb^-1
+
+Inputfile:
+XSect:           379700 fb
+ Error:          37970 fb
+MCEvents:        10000
+ SumOfWeights:   3.79684e+06
+ SumOfWeights2:  1.4416e+09
+ NormEvents:     1.36312e+07
+
+Cut                                        Sum_W        Sum_W2       Acc     N_Norm       
+CutFlow_0_Start                            3.79684e+06  1.4416e+09   1       1.36312e+07  
+CutFlow_2l_a_2tight_e_mu                   1.682e+06    6.38629e+08  0.443   6.03863e+06  
+CutFlow_2l_b_same_sign                     379.684      144160       0.0001  1363.12      
+CutFlow_4l_a_4tight_l                      379.684      144160       0.0001  1363.12      
+CutFlow_4l_b_low_mass_veto                 379.684      144160       0.0001  1363.12      
+CutFlow_4l_c_bjet_veto                     379.684      144160       0.0001  1363.12      
+CutFlow_4l_e_MET_100                       379.684      144160       0.0001  1363.12      
+CutFlow_t1_3l_a_3tight_l                   1518.74      576640       0.0004  5452.49      
+CutFlow_t1_3l_b_4th_l_veto                 1518.74      576640       0.0004  5452.49      
+CutFlow_t1_3l_c_conversions_low_mass_veto  759.368      288320       0.0002  2726.25      
+CutFlow_t1_3l_d_bjet_veto                  759.368      288320       0.0002  2726.25      
+CutFlow_t1_3l_e_MET_50                     379.684      144160       0.0001  1363.12      
+CutFlow_t2_3l_a_3tight_l                   46701.2      1.77317e+07  0.0123  167664       
+CutFlow_t2_3l_b_4th_l_veto                 46321.5      1.75875e+07  0.0122  166301       
+CutFlow_t2_3l_c_conversions_low_mass_veto  45941.8      1.74434e+07  0.0121  164938       
+CutFlow_t2_3l_d_bjet_veto                  42904.3      1.62901e+07  0.0113  154033       
+CutFlow_t2_3l_e_MET_50                     26957.6      1.02354e+07  0.0071  96781.7      
+CutFlow_t2_3l_f_MT2_100                    22781.1      8.6496e+06   0.006   81787.4      
+CutFlow_t2_3l_g_Mll_LT_75                  379.684      144160       0.0001  1363.12      

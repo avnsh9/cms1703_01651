@@ -1,9 +1,16 @@
+#!/usr/bin/env /usr/bin/python3.6
+
 from math import sqrt
+import sys
 import operator
+
+from numpy import Inf, kaiser
+import numpy as np
 
 from advprint import AdvPrint
 from resultcollector import ResultCollector
 from cls import cls_obs, cls_exp, likelihood
+from simplified_likelihood import likelihood_given_mu
 from info import Info
 
 class Evaluator:
@@ -41,6 +48,8 @@ class Evaluator:
         
         # likelihood
         self.likelihood = -1
+        #simplified_likelihood
+        self.max_log_lik=-1
 
         # zsig
         self.expected_zsig = -1
@@ -179,6 +188,8 @@ class Evaluator:
         #    AdvPrint.cout("Result for likelihood: "+str(self.likelihood))
         elif self.r_obs != -1:
             AdvPrint.cout("Result for r: "+str(self.r_obs_cons))
+        if self.max_log_lik != -1:
+            AdvPrint.cout("Result for max log likelihood using SL framework is : "+str(self.max_log_lik))
         else:
             AdvPrint.cerr_exit("evaluator::printResult(): No result has been evaluated!")
         
@@ -281,6 +292,43 @@ class Evaluator:
         else:
             (self.cls_exp, self.cls_exp_err) = cls_exp(self.bkg, self.bkg_err, self.obs, sig, sig_err, Info.parameters["randomseed"])
             (self.cls_obs, self.cls_obs_err)  = cls_obs(self.bkg, self.bkg_err, self.obs, sig, sig_err, Info.parameters["randomseed"]) 
+
+    def simplified_likelihood(self):
+        
+        analysis = self.resultCollector.analysis       
+        parameters = Info.get_analysis_parameters(analysis)
+        # Determine parameters
+        key=['MONOJ230_260','MONOJ260_290','MONOJ290_320','MONOJ320_350','MONOJ350_390','MONOJ390_430','MONOJ430_470','MONOJ470_510','MONOJ510_550','MONOJ550_590','MONOJ590_640','MONOJ640_690','MONOJ690_740','MONOJ740_790','MONOJ790_840','MONOJ840_900','MONOJ900_960','MONOJ960_1020','MONOJ1020_1090','MONOJ1090_1160','MONOJ1160']
+        events=[float(parameters['reference_data'][k]['obs']) for k in key]
+        events=np.array(events)
+        event=[int(parameters['reference_data'][k]['obs']) for k in key]
+        event=np.array(event)
+        bkg=[float(parameters['reference_data'][k]['bkg']) for k in key]
+        bkg=np.array(bkg)
+        bkg_err=[float(parameters['reference_data'][k]['bkg_err']) for k in key]
+        bkg_err=np.array(bkg_err)
+        correlation_file=Info.files["analysis_correlation"]
+        corr_file=correlation_file[analysis]
+        corr=np.loadtxt(corr_file)
+        procList = Info.fill_processes_from_file(sys.argv[1])
+        result_file=procList[0].result_output_file
+        s=np.genfromtxt(result_file, names=True, dtype=None)
+        signal_temp=s['signal_normevents']
+        key_temp=s['sr']
+        dict_temp=dict(zip(key_temp,signal_temp))
+        signal=[dict_temp[k] for k in key]
+        signal=np.array(signal)
+        mu_0=likelihood_given_mu(signal,bkg,bkg_err,events,event,0,corr)
+        mu_1=likelihood_given_mu(signal,bkg,bkg_err,events,event,1,corr)
+        self.max_log_lik=(-2)*(mu_1-mu_0)
+        
+        
+        
+        
+                
+
+
+
 
     def calc_zsig(self):
         # Determine confidence limits. For conservative limits, use the 95% lower limit on S given 1 sigma delta S.
@@ -401,3 +449,8 @@ def _find_strongest_zsig_of_analysis(analysis, dict_of_evaluators):
     """
     key = max(dict_of_evaluators, key=lambda k: dict_of_evaluators[k].expected_zsig)
     return {'analysis': analysis, 'sr': key, 'evaluator': dict_of_evaluators[key]}
+
+#####avinash_test
+# k=Evaluator.simplified_likelihood()
+# j=k.simplified_likelihood()
+# print(k)

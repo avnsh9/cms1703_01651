@@ -1,0 +1,2 @@
+analysis      sr            o        b        db     s              ds             s95obs  s95exp  robscons       rexpcons       
+cms1703_test  MONOJ200_230  14064.2  13210.0  400.0  6455.18364327  2283.16426527  1514.0  894.0   1.79048497241  3.03220833135  

@@ -1,9 +1,9 @@
 # This is a minimal working example
 [Parameters]
-Name: My_New_Run
+Name: test1_run
 Analyses: atlas_1405_7875
 
 [myprocess]
-XSect: 4 FB
+XSect: 14 FB
 Events: example_run_cards/auxiliary/testfile.hep
 

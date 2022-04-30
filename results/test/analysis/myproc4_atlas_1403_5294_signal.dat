@@ -1,0 +1,26 @@
+# direct production of charginos, neutralinos and sleptons
+# two leptons and missing transverse momentum
+# 8 TeV, 20.3 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+WWa_DF  0  0  0  0
+WWa_SF  0  0  0  0
+WWb_DF  0  0  0  0
+WWb_SF  0  0  0  0
+WWc_DF  0  0  0  0
+WWc_SF  0  0  0  0
+Zjets  0  0  0  0
+mT2_120_DF  0  0  0  0
+mT2_120_SF  0  0  0  0
+mT2_150_DF  0  0  0  0
+mT2_150_SF  0  0  0  0
+mT2_90_DF  0  0  0  0
+mT2_90_SF  0  0  0  0

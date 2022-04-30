@@ -1,0 +1,14 @@
+# Z plus Higgs to invisible production
+# two leptons and missing transverse momentum
+# 8 TeV, 20.3 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+sig  0  0  0  0

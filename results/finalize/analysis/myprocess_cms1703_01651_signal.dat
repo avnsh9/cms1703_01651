@@ -1,0 +1,31 @@
+# Search for dark matter produced with an energetic jet or a hadronically decaying W or Z boson
+
+Inputfile:
+XSect:           379600 fb
+ Error:          3796 fb
+MCEvents:        100
+ SumOfWeights:   38271.2
+ SumOfWeights2:  1.46468e+07
+ NormEvents:     4.89684e+06
+
+SR              Sum_W  Sum_W2  Acc  N_Norm  
+MONOJ1020_1090  0      0       0    0       
+MONOJ1090_1160  0      0       0    0       
+MONOJ1160       0      0       0    0       
+MONOJ510_550    0      0       0    0       
+MONOJ550_590    0      0       0    0       
+MONOJ590_640    0      0       0    0       
+MONOJ640_690    0      0       0    0       
+MONOJ690_740    0      0       0    0       
+MONOJ740_790    0      0       0    0       
+MONOJ790_840    0      0       0    0       
+MONOJ840_900    0      0       0    0       
+MONOJ900_960    0      0       0    0       
+MONOJ960_1020   0      0       0    0       
+MONOV250_300    0      0       0    0       
+MONOV300_350    0      0       0    0       
+MONOV350_400    0      0       0    0       
+MONOV400_500    0      0       0    0       
+MONOV500_600    0      0       0    0       
+MONOV600_750    0      0       0    0       
+MONOV750        0      0       0    0       

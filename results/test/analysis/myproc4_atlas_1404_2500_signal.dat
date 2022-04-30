@@ -1,0 +1,16 @@
+@#Search for supersymmetry at \sqrt{s}=8 TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+SR0b  0  0  0  0
+SR1b  0  0  0  0
+SR3Lhigh  0  0  0  0
+SR3Llow  0  0  0  0
+SR3b  0  0  0  0

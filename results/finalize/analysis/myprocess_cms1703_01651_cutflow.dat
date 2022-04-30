@@ -1,0 +1,18 @@
+# Search for dark matter produced with an energetic jet or a hadronically decaying W or Z boson
+
+Inputfile:
+XSect:           379600 fb
+ Error:          3796 fb
+MCEvents:        100
+ SumOfWeights:   38271.2
+ SumOfWeights2:  1.46468e+07
+ NormEvents:     4.89684e+06
+
+Cut           Sum_W    Sum_W2       Acc   N_Norm       
+AK4-03        765.424  292937       0.02  97936.8      
+Etmiss200-02  765.424  292937       0.02  97936.8      
+all-01        38271.2  1.46468e+07  1     4.89684e+06  
+angle-06      0        0            0     0            
+no_bjet-05    0        0            0     0            
+no_lepton-04  0        0            0     0            
+start-07      0        0            0     0            

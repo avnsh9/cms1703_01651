@@ -133,13 +133,13 @@ void Atlas_1911_12606::analyze() {
   std::sort(leptons_tracks.begin(), leptons_tracks.end(), FinalStateObject::sortByPT);  
   
   n++;
-  //cout << "Event: " << n << "\n";
-  //cout << "True_part: " << true_particles.size() << "\n";
-  //cout << "electronsTight: " << electronsTight.size() << "\n";
-  //cout << "electronTracks: " << nel << "\n";
-  //cout << "electronTrue: " << nel_true << "\n";
-  //cout << "muonsCombined: " << muonsCombined.size() << "\n";
-  //cout << "muonTracks: " << nmu << "\n";
+  cout << "Event: " << n << "\n";
+  cout << "True_part: " << true_particles.size() << "\n";
+  cout << "electronsTight: " << electronsTight.size() << "\n";
+  cout << "electronTracks: " << nel << "\n";
+  cout << "electronTrue: " << nel_true << "\n";
+  cout << "muonsCombined: " << muonsCombined.size() << "\n";
+  cout << "muonTracks: " << nmu << "\n";
   //cout << "muonTrue: " << nmu_true << "\n";
 //  cout << "tracks: " << tracks.size() << "\n"; 
   //cout << "leptons_tracks: " << leptons_tracks.size() << "\n";    

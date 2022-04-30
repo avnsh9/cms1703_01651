@@ -1,0 +1,88 @@
+# two additional searches from stop legacy
+# di-lepton search with MT2 to exploit WW-like signals
+# 2b-jets plus lepton for natural SUSY
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+WW_00  192  192  1  6.23582e+11
+WW_01_trigger  0  0  0  0
+WW_02_2leptons  0  0  0  0
+WW_03_OF  0  0  0  0
+WW_04_iso  0  0  0  0
+WW_05_OS  0  0  0  0
+WW_06_mll>20  0  0  0  0
+WW_07_pTl1>25  0  0  0  0
+WW_08_R1  0  0  0  0
+WW_09_mT2>20  0  0  0  0
+WW_10_dX<0.02  0  0  0  0
+WW_11_R2>0.5  0  0  0  0
+WW_12_SR1  0  0  0  0
+WW_12_SR2  0  0  0  0
+WW_12_SR3  0  0  0  0
+WW_12_SR4  0  0  0  0
+WW_12_SR5  0  0  0  0
+WW_12_SR6  0  0  0  0
+WW_12_SR7  0  0  0  0
+WW_20_CRWW  0  0  0  0
+WW_20_CRZ  0  0  0  0
+WW_20_CRtt  0  0  0  0
+ex1_00  192  192  1  6.23582e+11
+ex1_01_trigger  0  0  0  0
+ex1_02_1lepton  0  0  0  0
+ex1_03_met>100  0  0  0  0
+ex1_04_2bjets  0  0  0  0
+ex1_05_met>160  0  0  0  0
+ex1_06_mt>120  0  0  0  0
+ex1_07_meff>300  0  0  0  0
+ex1_08_metsig>10  0  0  0  0
+ex1_09_amt2>180  0  0  0  0
+ex1_10_mbl<170  0  0  0  0
+ex1_11_dphi<0.4  0  0  0  0
+ex1_12_Nxjets  0  0  0  0
+ex1_20_CRT  0  0  0  0
+in1_00  192  192  1  6.23582e+11
+in1_01_trigger  0  0  0  0
+in1_02_1lepton  0  0  0  0
+in1_03_met>100  0  0  0  0
+in1_04_2bjets  0  0  0  0
+in1_05_met>200  0  0  0  0
+in1_06_mt>140  0  0  0  0
+in1_07_meff>300  0  0  0  0
+in1_08_metsig>8  0  0  0  0
+in1_09_amt2>180  0  0  0  0
+in1_10_mbl<170  0  0  0  0
+in1_11_dphi<0.4  0  0  0  0
+in1_20_CRT  0  0  0  0
+in2_00  192  192  1  6.23582e+11
+in2_01_trigger  0  0  0  0
+in2_02_1lepton  0  0  0  0
+in2_03_met>100  0  0  0  0
+in2_04_2bjets  0  0  0  0
+in2_05_met>120  0  0  0  0
+in2_06_mt>140  0  0  0  0
+in2_07_meff>450  0  0  0  0
+in2_08_metsig>12  0  0  0  0
+in2_09_amt2>200  0  0  0  0
+in2_10_mbl<170  0  0  0  0
+in2_11_dphi<0.4  0  0  0  0
+in2_20_CRT  0  0  0  0
+in3_00  192  192  1  6.23582e+11
+in3_01_trigger  0  0  0  0
+in3_02_1lepton  0  0  0  0
+in3_03_met>100  0  0  0  0
+in3_04_2bjets  0  0  0  0
+in3_05_met>220  0  0  0  0
+in3_06_mt>180  0  0  0  0
+in3_07_meff>650  0  0  0  0
+in3_08_metsig>5  0  0  0  0
+in3_09_amt2>180  0  0  0  0
+in3_10_mbl<170  0  0  0  0
+in3_11_dphi<0.4  0  0  0  0
+in3_20_CRT  0  0  0  0

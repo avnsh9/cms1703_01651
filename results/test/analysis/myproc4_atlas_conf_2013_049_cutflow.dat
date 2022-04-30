@@ -1,0 +1,74 @@
+@#ATLAS
+@#ATLAS-CONF-2013-049
+@#2 leptons + etmiss
+@#sqrt(s) = 8 TeV
+@#int(L) = 20.3 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+SR110ee0  192  192  1  6.23582e+11
+SR110ee1  0  0  0  0
+SR110ee2  0  0  0  0
+SR110ee3  0  0  0  0
+SR110ee4  0  0  0  0
+SR110emu0  192  192  1  6.23582e+11
+SR110emu1  0  0  0  0
+SR110emu2  0  0  0  0
+SR110emu3  0  0  0  0
+SR110emu4  0  0  0  0
+SR110mumu0  192  192  1  6.23582e+11
+SR110mumu1  0  0  0  0
+SR110mumu2  0  0  0  0
+SR110mumu3  0  0  0  0
+SR110mumu4  0  0  0  0
+SR90ee0  384  384  2  1.24716e+12
+SR90ee1  0  0  0  0
+SR90ee2  0  0  0  0
+SR90ee3  0  0  0  0
+SR90ee4  0  0  0  0
+SR90emu0  192  192  1  6.23582e+11
+SR90emu1  0  0  0  0
+SR90emu2  0  0  0  0
+SR90emu3  0  0  0  0
+SR90emu4  0  0  0  0
+SR90mumu0  192  192  1  6.23582e+11
+SR90mumu1  0  0  0  0
+SR90mumu2  0  0  0  0
+SR90mumu3  0  0  0  0
+SR90mumu4  0  0  0  0
+SRWWa0  192  192  1  6.23582e+11
+SRWWa1  0  0  0  0
+SRWWa2  0  0  0  0
+SRWWa3  0  0  0  0
+SRWWa4  0  0  0  0
+SRWWa5  0  0  0  0
+SRWWa6  0  0  0  0
+SRWWa7  0  0  0  0
+SRWWa8  0  0  0  0
+SRWWa9  0  0  0  0
+SRWWb0  192  192  1  6.23582e+11
+SRWWb1  0  0  0  0
+SRWWb2  0  0  0  0
+SRWWb3  0  0  0  0
+SRWWb4  0  0  0  0
+SRWWb5  0  0  0  0
+SRWWb6  0  0  0  0
+SRWWb7  0  0  0  0
+SRWWb8  0  0  0  0
+SRWWb9  0  0  0  0
+SRWWc0  192  192  1  6.23582e+11
+SRWWc1  0  0  0  0
+SRWWc2  0  0  0  0
+SRWWc3  0  0  0  0
+SRWWc4  0  0  0  0
+SRWWc5  0  0  0  0
+SRWWc6  0  0  0  0
+SRWWc7  0  0  0  0
+SRWWc8  0  0  0  0

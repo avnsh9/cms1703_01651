@@ -1,0 +1,43 @@
+# Search for dark matter produced with an energetic
+# jet or a
+# √
+# hadronically decaying W or Z boson at
+
+Inputfile:
+XSect:           394500 fb
+ Error:          3945 fb
+MCEvents:        50000
+ SumOfWeights:   1.97286e+07
+ SumOfWeights2:  7.78435e+09
+ NormEvents:     5.08905e+06
+
+SR              Sum_W    Sum_W2       Acc      N_Norm   
+MONOJ1020_1090  0        0            0        0        
+MONOJ1090_1160  0        0            0        0        
+MONOJ1160       0        0            0        0        
+MONOJ200_230    11837.2  4.67061e+06  0.0006   3053.43  
+MONOJ230_260    10258.9  4.04786e+06  0.00052  2646.31  
+MONOJ260_290    3551.15  1.40118e+06  0.00018  916.029  
+MONOJ290_320    3156.58  1.2455e+06   0.00016  814.248  
+MONOJ320_350    1183.72  467061       6e-05    305.343  
+MONOJ350_390    0        0            0        0        
+MONOJ390_430    394.572  155687       2e-05    101.781  
+MONOJ430_470    0        0            0        0        
+MONOJ470_510    0        0            0        0        
+MONOJ510_550    0        0            0        0        
+MONOJ550_590    0        0            0        0        
+MONOJ590_640    0        0            0        0        
+MONOJ640_690    0        0            0        0        
+MONOJ690_740    0        0            0        0        
+MONOJ740_790    0        0            0        0        
+MONOJ790_840    0        0            0        0        
+MONOJ840_900    0        0            0        0        
+MONOJ900_960    0        0            0        0        
+MONOJ960_1020   0        0            0        0        
+MONOV250_300    394.572  155687       2e-05    101.781  
+MONOV300_350    1972.86  778435       0.0001   508.905  
+MONOV350_400    789.144  311374       4e-05    203.562  
+MONOV400_500    789.144  311374       4e-05    203.562  
+MONOV500_600    394.572  155687       2e-05    101.781  
+MONOV600_750    0        0            0        0        
+MONOV750        0        0            0        0        

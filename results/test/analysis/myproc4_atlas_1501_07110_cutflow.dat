@@ -1,0 +1,60 @@
+# ATLAS
+# arXiv:1501.07110
+# an isolated lepton, 125GeV Higgs and missing Et
+# sqrt(s) = 8 TeV
+# int(L) = 20.3 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+SRlbb-01-1lep2bjets  0  0  0  0
+SRlbb-02-missingET  0  0  0  0
+SRlbb-03-mct  0  0  0  0
+SRlbb-04-mtw  0  0  0  0
+SRlbb-05-mbb  0  0  0  0
+SRlbb-06-onHiggs-1  0  0  0  0
+SRlbb-07-sidebands-1  0  0  0  0
+SRlbb-08-onHiggs-2  0  0  0  0
+SRlbb-09-sidebands-2  0  0  0  0
+SRll-ee-01-sameSign  0  0  0  0
+SRll-ee-02-veto1  0  0  0  0
+SRll-ee-03-jets  0  0  0  0
+SRll-ee-04-veto2  0  0  0  0
+SRll-ee-05-pt  0  0  0  0
+SRll-ee-06-deltaEta  0  0  0  0
+SRll-ee-07-etRel  0  0  0  0
+SRll-ee-08-meff  0  0  0  0
+SRll-ee-09-mt  0  0  0  0
+SRll-ee-10-mass  0  0  0  0
+SRll-em-01-sameSign  0  0  0  0
+SRll-em-02-veto1  0  0  0  0
+SRll-em-03-jets  0  0  0  0
+SRll-em-04-veto2  0  0  0  0
+SRll-em-05-pt  0  0  0  0
+SRll-em-06-deltaEta  0  0  0  0
+SRll-em-07-etRel  0  0  0  0
+SRll-em-08-meff  0  0  0  0
+SRll-em-09-mt  0  0  0  0
+SRll-em-10-mass  0  0  0  0
+SRll-mm-01-sameSign  0  0  0  0
+SRll-mm-02-veto1  0  0  0  0
+SRll-mm-03-jets  0  0  0  0
+SRll-mm-04-veto2  0  0  0  0
+SRll-mm-05-pt  0  0  0  0
+SRll-mm-06-deltaEta  0  0  0  0
+SRll-mm-07-etRel  0  0  0  0
+SRll-mm-08-meff  0  0  0  0
+SRll-mm-09-mt  0  0  0  0
+SRll-mm-10-mass  0  0  0  0
+SRlrr-01-leprr  0  0  0  0
+SRlrr-02-mrr  0  0  0  0
+SRlrr-03-et  0  0  0  0
+SRlrr-04-dphi  0  0  0  0
+SRlrr-05-1  0  0  0  0
+SRlrr-06-2  0  0  0  0

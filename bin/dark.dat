@@ -1,0 +1,14 @@
+# This is a minimal working example
+[Parameters]
+name: dark
+Analyses: cms1703_01651
+
+
+
+[hi]
+XSect: 0.1938 PB 
+XSectErr: 1 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/dark_matter/Events/run_07/tag_1_pythia8_events.hepmc
+
+
+

@@ -371,6 +371,8 @@ module Merger FinalTrackMerger {
 ##################
 # ROOT tree writer
 ##################
+   
+
 
 # tracks, towers and eflow objects are not stored by default in the output.
 # if needed (for jet constituent or other studies), uncomment the relevant
@@ -379,6 +381,8 @@ module Merger FinalTrackMerger {
 module TreeWriter TreeWriter {
 # add Branch InputArray BranchName BranchClass
   add Branch TagSkimmer/particles Particle GenParticle
+  add Branch Delphes/allParticles GenParticle GenParticle  
+
 
   add Branch TrackMerger/tracks Track Track
   add Branch EFlowMerger/eflow Tower Tower

@@ -1,0 +1,11 @@
+# This is a minimal working example
+[Parameters]
+Name: zjets
+Analyses: cms1703_test
+
+[myprocess]
+XSect: 379.7 PB 
+XSectErr: 1 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/z_jets/Events/run_01/unweighted_events.lhe
+
+

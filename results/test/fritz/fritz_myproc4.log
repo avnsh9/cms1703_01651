@@ -1,0 +1,84 @@
+Fritz: Initialising handlers from file /home/avnsh9/workspace/checkmate2/results/test/fritz/myproc4.ini
+PythiaHandler 'myproc4': Pythia8 output redirected to /home/avnsh9/workspace/checkmate2/results/test/pythia/pythia_myproc4.log
+PythiaHandler 'myproc4': Initializing Pythia8 with /home/avnsh9/workspace/checkmate2/bin/example_run_cards/auxiliary/testpythia8card.in
+PythiaHandler 'myproc4': Pythia8 successfully initialized!
+PythiaHandler 'myproc4': Pythia8 successfully initialised!
+PythiaHandler 'myproc4': Pythia8 will generate 1000 events
+DelphesHandler 'atlas8tev': Initialising Delphes via linking to PythiaHandler 'myproc4'
+DelphesHandler 'atlas8tev': Initialising settings from /home/avnsh9/workspace/checkmate2/data/cards/delphes_skimmed_ATLAS.tcl
+DelphesHandler 'atlas8tev': Delphes successfully initialised!
+DelphesHandler 'cms8tev': Initialising Delphes via linking to PythiaHandler 'myproc4'
+DelphesHandler 'cms8tev': Initialising settings from /home/avnsh9/workspace/checkmate2/data/cards/delphes_skimmed_CMS.tcl
+DelphesHandler 'cms8tev': Delphes successfully initialised!
+AnalysisHandler 'atlas8tev': Initialising AnalysisHandler
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1308_1841
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1308_1841
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1308_2631
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1308_2631
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1402_7029
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1402_7029
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1403_4853
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1403_4853
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1403_5222
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1403_5222
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1403_5294
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1403_5294
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1403_5294_CR
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1403_5294_CR
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1404_2500
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1404_2500
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1405_7875
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1405_7875
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1407_0583
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1407_0583
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1407_0608
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1407_0608
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1411_1559
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1411_1559
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1501_07110
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1501_07110
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1502_01518
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1502_01518
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1502_05686
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1502_05686
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1503_03290
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1503_03290
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1506_08616
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1506_08616
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1507_05493
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1507_05493
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2012_104
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2012_104
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2013_024
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2013_024
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2013_049
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2013_049
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2013_061
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2013_061
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2013_089
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2013_089
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_conf_2015_004
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_conf_2015_004
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_higg_2013_03
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_higg_2013_03
+AnalysisHandler 'atlas8tev': Linking to DelphesHandler 'atlas8tev' tree
+AnalysisHandler 'atlas8tev': AnalysisHandler successfully linked to DelphesHandler 'atlas8tev'
+AnalysisHandler 'cms8tev': Initialising AnalysisHandler
+AnalysisHandler 'cms8tev': Loading Analysis cms_1303_2985
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_1303_2985
+AnalysisHandler 'cms8tev': Loading Analysis cms_1408_3583
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_1408_3583
+AnalysisHandler 'cms8tev': Loading Analysis cms_1502_06031
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_1502_06031
+AnalysisHandler 'cms8tev': Loading Analysis cms_1504_03198
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_1504_03198
+AnalysisHandler 'cms8tev': Loading Analysis cms_exo_14_014
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_exo_14_014
+AnalysisHandler 'cms8tev': Loading Analysis cms_sus_13_016
+AnalysisHandler 'cms8tev': Successfully loaded analysis cms_sus_13_016
+AnalysisHandler 'cms8tev': Linking to DelphesHandler 'cms8tev' tree
+AnalysisHandler 'cms8tev': AnalysisHandler successfully linked to DelphesHandler 'cms8tev'
+Fritz: Fritz successfully loaded command line parameters!
+Fritz:  >> Successfully initialized and linked all handlers! <<
+Fritz: Starting event loop!
+Fritz: Progress: 100 Events

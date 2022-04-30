@@ -1,0 +1,11 @@
+# This is a minimal working example
+[Parameters]
+Name: nu
+Analyses: cms1703_01651
+
+[myprocess]
+XSect: 372.6 PB 
+XSectErr: 1 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/nu/Events/run_02/tag_1_pythia8_events.hepmc
+
+

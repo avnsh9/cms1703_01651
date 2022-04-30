@@ -1,0 +1,68 @@
+# Search for photonic signatures of gauge-mediated supersymmetry in 8 TeV pp collisions with the ATLAS detector
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+gab_H_1_cleaning  0  0  0  0
+gab_H_2_photon_pt  0  0  0  0
+gab_H_3_njets  0  0  0  0
+gab_H_4_btag  0  0  0  0
+gab_H_5_etmiss  0  0  0  0
+gab_H_6_mTga  0  0  0  0
+gab_H_7_Deltaphi(jet,etmiss)  0  0  0  0
+gab_H_8_HT  0  0  0  0
+gab_L_10_mbb  0  0  0  0
+gab_L_1_cleaning  0  0  0  0
+gab_L_2_photon_pt  0  0  0  0
+gab_L_3_njets  0  0  0  0
+gab_L_4_btag1  0  0  0  0
+gab_L_5_btag2  0  0  0  0
+gab_L_6_leptonveto  0  0  0  0
+gab_L_7_etmiss  0  0  0  0
+gab_L_8_mTga  0  0  0  0
+gab_L_9_Deltaphi(jet,etmiss)  0  0  0  0
+gaga_SH_1_photon_selec  0  0  0  0
+gaga_SH_2_Deltaphi(jet,etmiss)  0  0  0  0
+gaga_SH_3_Deltaphi(ga,etmiss)  0  0  0  0
+gaga_SH_4_meff  0  0  0  0
+gaga_SH_5_etmiss  0  0  0  0
+gaga_SL_1_photon_selec  0  0  0  0
+gaga_SL_2_Deltaphi(j,etmiss)  0  0  0  0
+gaga_SL_3_meff  0  0  0  0
+gaga_SL_4_etmiss  0  0  0  0
+gaga_WH_1_photon_selec  0  0  0  0
+gaga_WH_2_Deltaphi(jet,etmiss)  0  0  0  0
+gaga_WH_3_Deltaphi(ga,etmiss)  0  0  0  0
+gaga_WH_4_HT  0  0  0  0
+gaga_WH_5_etmiss  0  0  0  0
+gaga_WL_1_photon_selec  0  0  0  0
+gaga_WL_2_Deltaphi(jet,etmiss)  0  0  0  0
+gaga_WL_3_HT  0  0  0  0
+gaga_WL_etmiss  0  0  0  0
+gaj_H_1_photon_selec  0  0  0  0
+gaj_H_2_lepton_jet  0  0  0  0
+gaj_H_3_Deltaphi(jet,etmiss)  0  0  0  0
+gaj_H_4_Deltaphi(jet,ga)  0  0  0  0
+gaj_H_5_HT  0  0  0  0
+gaj_H_6_etmiss  0  0  0  0
+gaj_L_1_photon_selec  0  0  0  0
+gaj_L_2_lepton_jet  0  0  0  0
+gaj_L_3_Deltaphi(jet,etmiss)  0  0  0  0
+gaj_L_4_R4T  0  0  0  0
+gaj_L_5_etmiss  0  0  0  0
+gal_e_1_photon_selec  0  0  0  0
+gal_e_2_leptons  0  0  0  0
+gal_e_3_mTel  0  0  0  0
+gal_e_4_HT  0  0  0  0
+gal_e_5_etmiss  0  0  0  0
+gal_mu_1_photon_selec  0  0  0  0
+gal_mu_2_leptons  0  0  0  0
+gal_mu_3_mTmu  0  0  0  0
+gal_mu_4_HT  0  0  0  0
+gal_mu_5_etmiss  0  0  0  0

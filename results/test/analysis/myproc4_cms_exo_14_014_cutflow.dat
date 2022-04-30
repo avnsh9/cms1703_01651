@@ -1,0 +1,29 @@
+# Based on arXiv:1603.02248 [hep-ex]
+# Cuts are in Table:2
+# Number of obs and bkgs are in Table:7
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.05151e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+CR150_ee  0  0  0  0
+CR150_emu  0  0  0  0
+CR200_ee  0  0  0  0
+CR200_emu  0  0  0  0
+CR250_ee  0  0  0  0
+CR250_emu  0  0  0  0
+CR300_ee  0  0  0  0
+CR300_emu  0  0  0  0
+CR350_emu  0  0  0  0
+CR400_emu  0  0  0  0
+CR500_ee  0  0  0  0
+CR500_emu  0  0  0  0
+CR90_ee  0  0  0  0
+CR90_emu  0  0  0  0
+CRlow_ee  0  0  0  0
+CRlow_emu  0  0  0  0

@@ -1,0 +1,11 @@
+# This is a minimal working example
+[Parameters]
+Name: debug
+Analyses: cms_sus_16_039
+
+[myprocess]
+XSect: 379.7 PB 
+XSectErr: 10 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/z_jets/Events/run_01/unweighted_events.lhe
+
+

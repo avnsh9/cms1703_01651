@@ -1,0 +1,35 @@
+@# ATLAS 
+@# ATLAS arXiv:1308.2631 
+@#0 leptons + 2 b-jets + Etmiss [Sbottom/stop]
+@# Energy: 8 TeV 
+@# Luminosity: 20.1 fb^-1 
+@# UNVALIDATED!!!!!!!!!!!!!!!!!!!!!!!!! 
+
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.17439e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+0  192  192  1  6.17439e+11
+1  0  0  0  0
+10  0  0  0  0
+11  0  0  0  0
+12  0  0  0  0
+13  0  0  0  0
+14  0  0  0  0
+15  0  0  0  0
+16  0  0  0  0
+2  0  0  0  0
+3  0  0  0  0
+4  0  0  0  0
+5  0  0  0  0
+6  0  0  0  0
+7  0  0  0  0
+8  0  0  0  0
+9  0  0  0  0
+a_NoCuts  192  192  1  6.17439e+11

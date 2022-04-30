@@ -1,0 +1,2 @@
+analysis       sr            o      b      db   s              ds              s95obs  s95exp  robscons        rexpcons        
+cms1703_01651  MONOJ740_790  123.0  122.0  8.0  3.65317005598  0.429128696838  28.0    28.0    0.105335678327  0.105335678327  

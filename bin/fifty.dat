@@ -1,0 +1,11 @@
+# This is a minimal working example
+[Parameters]
+Name: fifty
+Analyses: cms1703_test
+
+[myprocess]
+XSect: 394.5 PB 
+XSectErr: 1 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/zsingle_15/Events/run_02/tag_1_pythia8_events.hepmc
+
+

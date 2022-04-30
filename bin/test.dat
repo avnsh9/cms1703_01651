@@ -1,0 +1,10 @@
+# This is a minimal working example
+[Parameters]
+Name: test
+
+
+[myproc4]
+Pythia8Card: /home/avnsh9/workspace/checkmate2/bin/example_run_cards/auxiliary/testpythia8card.in
+
+
+

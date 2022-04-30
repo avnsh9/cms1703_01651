@@ -1,0 +1,2 @@
+analysis       sr            o       b       db     s              ds            s95obs  s95exp  robscons       rexpcons       
+cms1703_01651  MONOV250_300  3395.0  3220.0  130.0  1601.08240201  114.07270227  403.0   276.0   3.50869273024  5.12319989234  

@@ -1,0 +1,61 @@
+@#Search for supersymmetry at \sqrt{s}=8 TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+SR0b0  192  192  1  6.23582e+11
+SR0b1  0  0  0  0
+SR0b2  0  0  0  0
+SR0b3  0  0  0  0
+SR0b4  0  0  0  0
+SR0b5  0  0  0  0
+SR0b6  0  0  0  0
+SR0b7  0  0  0  0
+SR0b8  0  0  0  0
+SR0b9  0  0  0  0
+SR1b0  192  192  1  6.23582e+11
+SR1b1  0  0  0  0
+SR1b2  0  0  0  0
+SR1b3  0  0  0  0
+SR1b4  0  0  0  0
+SR1b5  0  0  0  0
+SR1b6  0  0  0  0
+SR1b7  0  0  0  0
+SR1b8  0  0  0  0
+SR1b9  0  0  0  0
+SR3Lhigh0  192  192  1  6.23582e+11
+SR3Lhigh1  0  0  0  0
+SR3Lhigh2  0  0  0  0
+SR3Lhigh3  0  0  0  0
+SR3Lhigh4  0  0  0  0
+SR3Lhigh5  0  0  0  0
+SR3Lhigh6  0  0  0  0
+SR3Lhigh7  0  0  0  0
+SR3Lhigh8  0  0  0  0
+SR3Lhigh9  0  0  0  0
+SR3Llow0  192  192  1  6.23582e+11
+SR3Llow1  0  0  0  0
+SR3Llow2  0  0  0  0
+SR3Llow3  0  0  0  0
+SR3Llow4  0  0  0  0
+SR3Llow5  0  0  0  0
+SR3Llow6  0  0  0  0
+SR3Llow7  0  0  0  0
+SR3Llow8  0  0  0  0
+SR3Llow9  0  0  0  0
+SR3b0  192  192  1  6.23582e+11
+SR3b1  0  0  0  0
+SR3b2  0  0  0  0
+SR3b3  0  0  0  0
+SR3b4  0  0  0  0
+SR3b5  0  0  0  0
+SR3b6  0  0  0  0
+SR3b7  0  0  0  0
+SR3b8  0  0  0  0
+SR3b9  0  0  0  0

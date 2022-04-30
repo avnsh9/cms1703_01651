@@ -1,0 +1,21 @@
+# Search for an invisibly decaying Higgs boson produced via vector boson fusion.
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+0_2jets  49  49  0.255208  1.59143e+11
+1_btag  38  38  0.197917  1.23417e+11
+2_tautag  38  38  0.197917  1.23417e+11
+3_leptonveto  38  38  0.197917  1.23417e+11
+4_MET  0  0  0  0
+5_DeltaPhijet  0  0  0  0
+6_DeltaPhi_jetMET  0  0  0  0
+7_DeltaETA  0  0  0  0
+8_Mcut  0  0  0  0
+9_jetveto  0  0  0  0

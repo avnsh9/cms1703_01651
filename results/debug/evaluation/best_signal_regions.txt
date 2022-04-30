@@ -1,0 +1,2 @@
+analysis        sr      o     b     db    s              ds          s95obs  s95exp  robscons       rexpcons       
+cms_sus_16_039  SR_C07  97.0  83.0  14.0  17720.5528197  5224.50378  44.0    34.2    208.008332284  267.613059079  

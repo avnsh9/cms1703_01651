@@ -1,0 +1,14 @@
+@#Opposite sign leptons
+@#3+ b-jets
+@#Gluino -> Stop decay search
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     5.99008e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+a_Input  192  192  1  5.99008e+11

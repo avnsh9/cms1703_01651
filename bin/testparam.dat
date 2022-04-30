@@ -1,6 +1,7 @@
 # This is a minimal working example
 [Parameters]
-Name: My_New_Run
+Name: test_run
+
 
 [testprocess]
 XSect: 1 FB

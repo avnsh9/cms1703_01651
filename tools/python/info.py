@@ -19,6 +19,8 @@ class Info(dict):
         paths = config_paths
         flags = dict()
         flags['fullcls'] = False
+        flags['simplified_likelihood'] = False
+        flags['ssm'] = 1.0
         flags['likelihood'] = False
         flags['likelihoodRootmethod'] = False
         flags['no_mc_stat_err'] = False
@@ -162,6 +164,8 @@ class Info(dict):
         parser.add_argument('-wd', '--write-delphes', dest='writedelphes',  action='store_true', help='If set, delphes .root files are stored.')      
         
         parser.add_argument('-cls', '--full-cls', dest='fullcls', action='store_true', help="Evaluate full CLs to the evaluated number of signal events (instead of just comparing to 95 percent limit).")
+        parser.add_argument('-simlik', '--simplified_likelihood', dest='simplified_likelihood', action='store_true', help="getting log likelihood value using simplified likelihood.")
+        parser.add_argument('-ssm', '--ssm', dest='ssm', help="Value of signal strength modifier is provided.")
         parser.add_argument('-bcls', '--best-cls', dest='bestcls', type=int, help="Evaluates CLs of the best signal region determined by r-value test.")
         parser.add_argument('-likeli', '--likelihood', dest='likelihood', action='store_true', help="Evaluate likelihood for each signal region using the MC-approach (and sum all signal regions).")
         parser.add_argument('-likelirm', '--likelihoodRootmethod', dest='likelihoodRootmethod', action='store_true', help="Evaluate likelihood for each signal region using the root method approach (and sum all signal regions).")
@@ -221,6 +225,10 @@ class Info(dict):
             cls.flags["likelihood"] = True
         if args.likelihoodRootmethod:
             cls.flags["likelihoodRootmethod"] = True
+        if args.simplified_likelihood:
+            cls.flags["simplified_likelihood"] = True
+        # if args.ssm:
+        cls.flags["ssm"] = args.xsect
         if args.no_mc_stat_err:
             cls.flags["no_mc_stat_err"] = True
         if args.eff_tab:
@@ -295,6 +303,10 @@ class Info(dict):
                     args.likelihood = Config.getboolean("Parameters", "likelihood")
                 elif optional_parameter == "likelihoodrootmethod":
                     args.likelihoodRootmethod = Config.getboolean("Parameters", "likelihoodRootmethod")
+                elif optional_parameter == "simplified_likelihood":
+                    args.simplified_likelihood = Config.getboolean("Parameters", "simplified_likelihood")
+                elif optional_parameter == "ssm":
+                    args.ssm = Config.getfloat("Parameters", "ssm")
                 elif optional_parameter == "no_mc_stat_err":
                     args.no_mc_stat_err = Config.getboolean("Parameters", "no_mc_stat_err")    
                 elif optional_parameter == "zsig":
@@ -655,6 +667,9 @@ class Info(dict):
         cls.analysis_list.append(analysis_name)
         cls.analysis_group_map[analysis_name] = analysis_group
         cls.files["analysis_settings"][analysis_name] = os.path.join(cls.paths['analysis_info'], analysis_group, "{}_var.j".format(analysis_name))
+        cls.files["analysis_covariance"][analysis_name] = os.path.join(cls.paths['analysis_info'], analysis_group, "{}_covar.dat".format(analysis_name))
+        
+
         cls.files["evaluation_reference"][analysis_name] = os.path.join(cls.paths['analysis_info'], analysis_group, "{}_ref.dat".format(analysis_name))
         cls.files["analysis_source"][analysis_name] = os.path.join(cls.paths['analysis'], 'src', 'analyses', analysis_group, analysis_name+'.cc')
         cls.files["analysis_CR_source"][analysis_name] = os.path.join(cls.paths['analysis'], 'src', 'analyses', analysis_group, analysis_name+'_CR.cc')
@@ -714,6 +729,7 @@ class Info(dict):
         
         # analysis information
         cls.files['analysis_settings'] = dict()
+        cls.files['analysis_correlation'] = dict()
         cls.files["analysis_source"] = dict()
         cls.files["analysis_CR_source"] = dict()
         cls.files["analysis_header"] = dict()
@@ -734,15 +750,18 @@ class Info(dict):
         for a in cls.analysis_list:
             group = cls.analysis_group_map[a]
             cls.files["analysis_settings"][a] = os.path.join(cls.paths['analysis_info'], group, "{}_var.j".format(a))
+            cls.files["analysis_correlation"][a] = os.path.join(cls.paths['analysis_info'], group, "{}_corr.dat".format(a))
             cls.files["evaluation_reference"][a] = os.path.join(cls.paths['analysis_info'], group, "{}_ref.dat".format(a))
             cls.files["analysis_source"][a] = os.path.join(cls.paths['analysis'], 'src', 'analyses', group, a+'.cc')
             cls.files["analysis_CR_source"][a] = os.path.join(cls.paths['analysis'], 'src', 'analyses', group, a+'_CR.cc')
             cls.files["analysis_header"][a] = os.path.join(cls.paths['analysis'], 'include', 'analyses', group, a+'.h')
+        
 
 
 
     @classmethod
     def fill_output_paths_and_files(cls, odir, oname):
+        from process import Process
         """Fills cls.paths with paths given a particular output directory"""
         cls.paths['output'] = os.path.join(odir, oname)
         cls.paths['output_delphes'] = os.path.join(cls.paths['output'], "delphes")
@@ -774,6 +793,7 @@ class Info(dict):
         if cls.flags["likelihoodRootmethod"]:
             cls.files['likelihoodRootmethod'] = os.path.join(cls.paths['output'], "likelihoodrm.txt")
         cls.files['output_totalresults'] = os.path.join(cls.paths['output'], "evaluation", "total_results.txt")        
+        cls.files['output_myprocess'] = os.path.join(cls.paths['output'], "evaluation", "{}_processResults.txt".format(Process.name))       
         cls.files['output_bestsignalregions'] = os.path.join(cls.paths['output'], "evaluation", "best_signal_regions.txt")
         cls.files['output_result'] = os.path.join(cls.paths['output'], "result.txt")
         

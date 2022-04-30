@@ -1,0 +1,28 @@
+# CMS
+# CMS_1408_3583
+# monojet, etmiss
+# sqrt(s) = 8 TeV
+# int(L) = 19.7 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.05151e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+0  192  192  1  6.05151e+11
+1  0  0  0  0
+2  0  0  0  0
+3  0  0  0  0
+4  0  0  0  0
+5  0  0  0  0
+6  0  0  0  0
+7  0  0  0  0
+8  0  0  0  0
+9  0  0  0  0
+9a  0  0  0  0
+9b  0  0  0  0
+9c  0  0  0  0

@@ -1,34 +1,55 @@
-! Settings used in the main program.
-Main:numberOfEvents = 1000        ! number of events to generate
+! main03.cmnd.
+! This file contains commands to be read in for a Pythia8 run.
+! Lines not beginning with a letter or digit are comments.
+! Names are case-insensitive  -  but spellings-sensitive!
+! The settings here are illustrative, not always physics-motivated.
+
+! 1) Settings used in the main program.
+Main:numberOfEvents = 1000         ! number of events to generate
 Main:timesAllowErrors = 3          ! how many aborts before run stops
+
+! 2) Settings related to output in init(), next() and stat().
 Init:showChangedSettings = on      ! list changed settings
 Init:showChangedParticleData = off ! list changed particle data
-Init:showOneParticleData = 36      ! print data for this particular particle
-Next:numberCount = 500             ! print message every n events
-Next:numberShowInfo = 2            ! print event information n times
-Next:numberShowProcess = 2         ! print process record n times
-Next:numberShowEvent = 2           ! print event record n times
+Next:numberCount = 100             ! print message every n events
+Next:numberShowInfo = 1            ! print event information n times
+Next:numberShowProcess = 1         ! print process record n times
+Next:numberShowEvent = 0           ! print event record n times
 
-! Settings for the event generation process in the Pythia8 library.
-# PartonLevel:MPI = off              ! no multiparton interactions
-# PartonLevel:ISR = off              ! no initial-state radiation
-# PartonLevel:FSR = off              ! no final-state radiation
-# HadronLevel:Hadronize = off        ! no hadronization
-
-! For comparison with Pythia 6
-PDF:pSet = 8 !(CTEQ6L1)
-# SigmaProcess:factorscale2 = 4 ! sqrt(s-hat)
-# SigmaProcess:renormScale2 = 4
-# SigmaProcess:alphaSvalue = 0.1265
-# SigmaProcess:alphaSorder = 1
-
-! Beam parameter settings. Values below agree with default ones.
+! 3) Beam parameter settings. Values below agree with default ones.
 Beams:idA = 2212                   ! first beam, p = 2212, pbar = -2212
 Beams:idB = 2212                   ! second beam, p = 2212, pbar = -2212
+Beams:eCM = 14000.                 ! CM energy of collision
 
+! 4) Settings for the hard-process generation.
 
-Beams:eCM = 8000.
+! Example 1: QCD + prompt photon production; must set pTmin.
+HardQCD:all = on                   ! switch on all QCD jet + jet processes
+PromptPhoton:all = on              ! swich on gamma + jet and gamma + gamma
+PhaseSpace:pTHatMin = 50.          ! minimal pT scale in process
 
-SLHA:file = testspectrum.slha
-SUSY:gg2gluinogluino  = on
-SUSY:qqbar2gluinogluino  = on
+! Example 2: t-tbar production.
+#Top:gg2ttbar = on                  ! g g -> t tbar
+#Top:qqbar2ttbar = on               ! q qbar -> t tbar
+
+! Example 3: Z0 production; should set mMin.
+#WeakSingleBoson:ffbar2gmZ = on     ! q qbar -> gamma*/Z0
+#PhaseSpace:mHatMin = 50.
+
+! Example 4: gauge boson pair production; set pTmin. Not yet complete.
+#WeakDoubleBoson:ffbar2ZW = on      ! q qbar -> Z0 W+-
+#WeakDoubleBoson:ffbar2WW = on      ! q qbar -> W+ W-
+#PhaseSpace:pTHatMin = 20.          ! minimal pT scale in process
+
+! 5) Switch on/off the key event generation steps.
+#PartonLevel:MPI = off              ! no multiparton interactions
+#PartonLevel:ISR = off              ! no initial-state radiation
+#PartonLevel:FSR = off              ! no final-state radiation
+#HadronLevel:Hadronize = off        ! no hadronization
+#HadronLevel:Decay = off            ! no decays
+
+! 6) Other settings. Can be expanded as desired.
+#Tune:preferLHAPDF = off            ! use internal PDFs when LHAPDF not linked
+Tune:pp = 6                        ! use Tune 4Cx
+ParticleDecays:limitTau0 = on      ! set long-lived particle stable ...
+ParticleDecays:tau0Max = 10        ! ... if c*tau0 > 10 mm

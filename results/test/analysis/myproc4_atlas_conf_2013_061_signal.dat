@@ -1,0 +1,24 @@
+@#ATLAS
+@#ATLAS-CONF-2013-061
+@#0-1 leptons + >= 3 b-jets + etmiss
+@#sqrt(s) = 8 TeV
+@#int(L) = 20.1 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.17439e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+SR0L4JA  0  0  0  0
+SR0L4JB  0  0  0  0
+SR0L4JC  0  0  0  0
+SR0L7JA  0  0  0  0
+SR0L7JB  0  0  0  0
+SR0L7JC  0  0  0  0
+SR1L6JA  0  0  0  0
+SR1L6JB  0  0  0  0
+SR1L6JC  0  0  0  0

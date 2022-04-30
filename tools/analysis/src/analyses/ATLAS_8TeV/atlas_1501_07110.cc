@@ -701,29 +701,30 @@ void Atlas_1501_07110::analyze() {
 
 void Atlas_1501_07110::finalize() {
   // Whatever should be done after the run goes here
-/* //for testing
-  file1.close();
+ //for testing
+  // file1.close();
 
-  TCanvas *can1 = new TCanvas("can1", "1501_07110", 600, 600);
-  hist1->Draw();
-  can1->SaveAs("1501_07110.png");
+  // TCanvas *can1 = new TCanvas("can1", "1501_07110", 600, 600);
+  // hist1->Draw();
+  // can1->SaveAs("1501_07110.png");
   
-  can1->Close();
+  // can1->Close();
   //delete can1;
 
-  can1 = new TCanvas("can1", "1501_07110", 600, 600);
-  hist2->Draw();
-  can1->SaveAs("1501_07110_hrr.png");
+  // can1 = new TCanvas("can1", "1501_07110", 600, 600);
+  // hist2->Draw();
+  // can1->SaveAs("1501_07110_hrr.png");
 
-  can1->Close();
+  // can1->Close();
 
-  can1 = new TCanvas("can1", "1501_07110", 600, 600);
-  can1->Divide(1,2);
-  can1->cd(1);
-  hist3->Draw();
-  can1->cd(2);
-  hist4->Draw();
+  // can1 = new TCanvas("can1", "1501_07110", 600, 600);
+  // can1->Divide(1,2);
+  // can1->cd(1);
+  // hist3->Draw();
+  // can1->cd(2);
+  // hist4->Draw();
   
-  can1->SaveAs("1501_07110_ll_pt.png");
-  can1->Close(); */
+  // can1->SaveAs("1501_07110_ll_pt.png");
+  // can1->Close(); 
+  cout<<"testing";
 }       

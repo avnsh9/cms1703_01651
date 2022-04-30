@@ -274,7 +274,7 @@ AR = ar
 AUTOCONF = ${SHELL} /home/avnsh9/workspace/checkmate2/missing autoconf
 AUTOHEADER = ${SHELL} /home/avnsh9/workspace/checkmate2/missing autoheader
 AUTOMAKE = ${SHELL} /home/avnsh9/workspace/checkmate2/missing automake-1.15
-AWK = mawk
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2

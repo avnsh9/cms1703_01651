@@ -1,0 +1,25 @@
+Fritz: Initialising handlers from file /home/avnsh9/workspace/checkmate2/results/finalize/fritz/myprocess.ini
+PythiaHandler 'myprocess': Pythia8 output redirected to /home/avnsh9/workspace/checkmate2/results/finalize/pythia/pythia_myprocess.log
+PythiaHandler 'myprocess': Initializing Pythia8 with /home/avnsh9/workspace/checkmate2/results/finalize/pythia/myprocesscard_0.in
+PythiaHandler 'myprocess': Pythia8 successfully initialized!
+PythiaHandler 'myprocess': Pythia8 successfully initialised!
+DelphesHandler 'cms13tev': Initialising Delphes via linking to PythiaHandler 'myprocess'
+DelphesHandler 'cms13tev': Initialising settings from /home/avnsh9/workspace/checkmate2/data/cards/delphes_skimmed_CMS_13TeV.tcl
+DelphesHandler 'cms13tev': Delphes successfully initialised!
+AnalysisHandler 'cms13tev': Initialising AnalysisHandler
+AnalysisHandler 'cms13tev': Loading Analysis cms1703_01651
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms1703_01651
+AnalysisHandler 'cms13tev': Linking to DelphesHandler 'cms13tev' tree
+AnalysisHandler 'cms13tev': AnalysisHandler successfully linked to DelphesHandler 'cms13tev'
+Fritz: Fritz successfully loaded command line parameters!
+Fritz:  >> Successfully initialized and linked all handlers! <<
+Fritz: Starting event loop!
+Fritz: Progress: 100 Events
+Fritz:  >> Finalising after 100 events. <<
+AnalysisHandler 'cms13tev': Asking DelphesHandler 'cms13tev' for cross section information
+DelphesHandler 'cms13tev': Asking PythiaHandler 'myprocess' for cross section information
+AnalysisHandler 'cms13tev': Analyses updated with sigma = 379600 fb and dSigma = 3796 fb
+AnalysisHandler 'cms13tev': Analyses successfully finished!
+DelphesHandler 'cms13tev': Delphes successfully finished!
+PythiaHandler 'myprocess': Pythia8 successfully finished!
+Fritz:  >> Done <<

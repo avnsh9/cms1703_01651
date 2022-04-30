@@ -1,0 +1,18 @@
+@#Search for new phenomena in events with a photon and missing transverse momentum in pp collisions
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+ SRb  0  0  0  0
+ SRc  0  0  0  0
+ SRd  0  0  0  0
+ SRe  0  0  0  0
+ SRf  0  0  0  0
+ SRg  0  0  0  0
+SRa  0  0  0  0

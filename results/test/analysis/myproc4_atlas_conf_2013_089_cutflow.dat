@@ -1,0 +1,143 @@
+@#ATLAS
+@#ATLAS-CONF-2013-089
+@#2 leptons, razor
+@#sqrt(s) = 8 TeV
+@#int(L) = 20.3 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+0  192  192  1  6.23582e+11
+1  0  0  0  0
+2  0  0  0  0
+3  0  0  0  0
+4  0  0  0  0
+a_Lep_1_ee  0  0  0  0
+a_Lep_1_emu  0  0  0  0
+a_Lep_1_mumu  0  0  0  0
+a_Lep_2_ee  0  0  0  0
+a_Lep_2_emu  0  0  0  0
+a_Lep_2_mumu  0  0  0  0
+a_Lep_3_ee  0  0  0  0
+a_Lep_3_emu  0  0  0  0
+a_Lep_3_mumu  0  0  0  0
+b_Jet_ee_J2  0  0  0  0
+b_Jet_ee_J3  0  0  0  0
+b_Jet_emu_J2  0  0  0  0
+b_Jet_emu_J3  0  0  0  0
+b_Jet_mumu_J2  0  0  0  0
+b_Jet_mumu_J3  0  0  0  0
+c_Z_ee_J2_Z  0  0  0  0
+c_Z_ee_J2_noZ  0  0  0  0
+c_Z_ee_J3_Z  0  0  0  0
+c_Z_ee_J3_noZ  0  0  0  0
+c_Z_emu_J2_Z  0  0  0  0
+c_Z_emu_J2_noZ  0  0  0  0
+c_Z_emu_J3_Z  0  0  0  0
+c_Z_emu_J3_noZ  0  0  0  0
+c_Z_mumu_J2_Z  0  0  0  0
+c_Z_mumu_J2_noZ  0  0  0  0
+c_Z_mumu_J3_Z  0  0  0  0
+c_Z_mumu_J3_noZ  0  0  0  0
+d_R05_ee_J2_Z_R035  0  0  0  0
+d_R05_ee_J2_Z_R05  0  0  0  0
+d_R05_ee_J2_noZ_R035  0  0  0  0
+d_R05_ee_J2_noZ_R05  0  0  0  0
+d_R05_ee_J3_Z_R035  0  0  0  0
+d_R05_ee_J3_Z_R05  0  0  0  0
+d_R05_ee_J3_noZ_R035  0  0  0  0
+d_R05_ee_J3_noZ_R05  0  0  0  0
+d_R05_emu_J2_Z_R035  0  0  0  0
+d_R05_emu_J2_Z_R05  0  0  0  0
+d_R05_emu_J2_noZ_R035  0  0  0  0
+d_R05_emu_J2_noZ_R05  0  0  0  0
+d_R05_emu_J3_Z_R035  0  0  0  0
+d_R05_emu_J3_Z_R05  0  0  0  0
+d_R05_emu_J3_noZ_R035  0  0  0  0
+d_R05_emu_J3_noZ_R05  0  0  0  0
+d_R05_mumu_J2_Z_R035  0  0  0  0
+d_R05_mumu_J2_Z_R05  0  0  0  0
+d_R05_mumu_J2_noZ_R035  0  0  0  0
+d_R05_mumu_J2_noZ_R05  0  0  0  0
+d_R05_mumu_J3_Z_R035  0  0  0  0
+d_R05_mumu_J3_Z_R05  0  0  0  0
+d_R05_mumu_J3_noZ_R035  0  0  0  0
+d_R05_mumu_J3_noZ_R05  0  0  0  0
+e_MR_ee_J2_Z_R035_MR400  0  0  0  0
+e_MR_ee_J2_Z_R035_MR600  0  0  0  0
+e_MR_ee_J2_Z_R035_MR800  0  0  0  0
+e_MR_ee_J2_Z_R05_MR400  0  0  0  0
+e_MR_ee_J2_Z_R05_MR600  0  0  0  0
+e_MR_ee_J2_Z_R05_MR800  0  0  0  0
+e_MR_ee_J2_noZ_R035_MR400  0  0  0  0
+e_MR_ee_J2_noZ_R035_MR600  0  0  0  0
+e_MR_ee_J2_noZ_R035_MR800  0  0  0  0
+e_MR_ee_J2_noZ_R05_MR400  0  0  0  0
+e_MR_ee_J2_noZ_R05_MR600  0  0  0  0
+e_MR_ee_J2_noZ_R05_MR800  0  0  0  0
+e_MR_ee_J3_Z_R035_MR400  0  0  0  0
+e_MR_ee_J3_Z_R035_MR600  0  0  0  0
+e_MR_ee_J3_Z_R035_MR800  0  0  0  0
+e_MR_ee_J3_Z_R05_MR400  0  0  0  0
+e_MR_ee_J3_Z_R05_MR600  0  0  0  0
+e_MR_ee_J3_Z_R05_MR800  0  0  0  0
+e_MR_ee_J3_noZ_R035_MR400  0  0  0  0
+e_MR_ee_J3_noZ_R035_MR600  0  0  0  0
+e_MR_ee_J3_noZ_R035_MR800  0  0  0  0
+e_MR_ee_J3_noZ_R05_MR400  0  0  0  0
+e_MR_ee_J3_noZ_R05_MR600  0  0  0  0
+e_MR_ee_J3_noZ_R05_MR800  0  0  0  0
+e_MR_emu_J2_Z_R035_MR400  0  0  0  0
+e_MR_emu_J2_Z_R035_MR600  0  0  0  0
+e_MR_emu_J2_Z_R035_MR800  0  0  0  0
+e_MR_emu_J2_Z_R05_MR400  0  0  0  0
+e_MR_emu_J2_Z_R05_MR600  0  0  0  0
+e_MR_emu_J2_Z_R05_MR800  0  0  0  0
+e_MR_emu_J2_noZ_R035_MR400  0  0  0  0
+e_MR_emu_J2_noZ_R035_MR600  0  0  0  0
+e_MR_emu_J2_noZ_R035_MR800  0  0  0  0
+e_MR_emu_J2_noZ_R05_MR400  0  0  0  0
+e_MR_emu_J2_noZ_R05_MR600  0  0  0  0
+e_MR_emu_J2_noZ_R05_MR800  0  0  0  0
+e_MR_emu_J3_Z_R035_MR400  0  0  0  0
+e_MR_emu_J3_Z_R035_MR600  0  0  0  0
+e_MR_emu_J3_Z_R035_MR800  0  0  0  0
+e_MR_emu_J3_Z_R05_MR400  0  0  0  0
+e_MR_emu_J3_Z_R05_MR600  0  0  0  0
+e_MR_emu_J3_Z_R05_MR800  0  0  0  0
+e_MR_emu_J3_noZ_R035_MR400  0  0  0  0
+e_MR_emu_J3_noZ_R035_MR600  0  0  0  0
+e_MR_emu_J3_noZ_R035_MR800  0  0  0  0
+e_MR_emu_J3_noZ_R05_MR400  0  0  0  0
+e_MR_emu_J3_noZ_R05_MR600  0  0  0  0
+e_MR_emu_J3_noZ_R05_MR800  0  0  0  0
+e_MR_mumu_J2_Z_R035_MR400  0  0  0  0
+e_MR_mumu_J2_Z_R035_MR600  0  0  0  0
+e_MR_mumu_J2_Z_R035_MR800  0  0  0  0
+e_MR_mumu_J2_Z_R05_MR400  0  0  0  0
+e_MR_mumu_J2_Z_R05_MR600  0  0  0  0
+e_MR_mumu_J2_Z_R05_MR800  0  0  0  0
+e_MR_mumu_J2_noZ_R035_MR400  0  0  0  0
+e_MR_mumu_J2_noZ_R035_MR600  0  0  0  0
+e_MR_mumu_J2_noZ_R035_MR800  0  0  0  0
+e_MR_mumu_J2_noZ_R05_MR400  0  0  0  0
+e_MR_mumu_J2_noZ_R05_MR600  0  0  0  0
+e_MR_mumu_J2_noZ_R05_MR800  0  0  0  0
+e_MR_mumu_J3_Z_R035_MR400  0  0  0  0
+e_MR_mumu_J3_Z_R035_MR600  0  0  0  0
+e_MR_mumu_J3_Z_R035_MR800  0  0  0  0
+e_MR_mumu_J3_Z_R05_MR400  0  0  0  0
+e_MR_mumu_J3_Z_R05_MR600  0  0  0  0
+e_MR_mumu_J3_Z_R05_MR800  0  0  0  0
+e_MR_mumu_J3_noZ_R035_MR400  0  0  0  0
+e_MR_mumu_J3_noZ_R035_MR600  0  0  0  0
+e_MR_mumu_J3_noZ_R035_MR800  0  0  0  0
+e_MR_mumu_J3_noZ_R05_MR400  0  0  0  0
+e_MR_mumu_J3_noZ_R05_MR600  0  0  0  0
+e_MR_mumu_J3_noZ_R05_MR800  0  0  0  0

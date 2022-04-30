@@ -1,0 +1,21 @@
+# Search for photonic signatures of gauge-mediated supersymmetry in 8 TeV pp collisions with the ATLAS detector
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+gab_H  0  0  0  0
+gab_L  0  0  0  0
+gaga_SH  0  0  0  0
+gaga_SL  0  0  0  0
+gaga_WH  0  0  0  0
+gaga_WL  0  0  0  0
+gaj_H  0  0  0  0
+gaj_L  0  0  0  0
+gal_e  0  0  0  0
+gal_mu  0  0  0  0

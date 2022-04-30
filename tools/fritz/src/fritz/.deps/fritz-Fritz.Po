@@ -632,7 +632,10 @@ src/fritz/fritz-Fritz.o: src/fritz/Fritz.cc /usr/include/stdc-predef.h \
  /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms_sus_16_039.h \
  /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms_sus_16_025.h \
  /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms_sus_16_048.h \
+ /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703_test.h \
+ /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/test.h \
  /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703_01651.h \
+ /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703.h \
  include/analysishandler/AnalysisHandlerCMS_14TeV_projected.h \
  include/fritz/ConfigParser.h
 
@@ -2054,7 +2057,13 @@ include/analysishandler/AnalysisHandlerCMS_13TeV.h:
 
 /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms_sus_16_048.h:
 
+/home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703_test.h:
+
+/home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/test.h:
+
 /home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703_01651.h:
+
+/home/avnsh9/workspace/checkmate2/tools/analysis/include/analyses/CMS_13TeV/cms1703.h:
 
 include/analysishandler/AnalysisHandlerCMS_14TeV_projected.h:
 

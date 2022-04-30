@@ -1,0 +1,12 @@
+# This is a minimal working example
+[Parameters]
+Name: finalize
+Analyses: cms1703_01651
+
+
+[myprocess]
+XSect: 379.6 PB 
+XSectErr: 1 %
+Events: /home/avnsh9/project/mg5amcatnlo/bin/z_jets/Events/run_03/unweighted_events.lhe
+
+

@@ -1,0 +1,42 @@
+Fritz: Initialising handlers from file /home/avnsh9/workspace/checkmate2/results/My_New_Run/fritz/myprocess.ini
+DelphesHandler 'cms13tev': Initialising Delphes via input event /home/avnsh9/project/mg5amcatnlo/bin/test_hydronic/Events/run_15/tag_1_pythia8_events.hepmc
+DelphesHandler 'cms13tev': Input File determined to be HepMC.
+DelphesHandler 'cms13tev': Initialising settings from /home/avnsh9/workspace/checkmate2/data/cards/delphes_skimmed_CMS_13TeV.tcl
+DelphesHandler 'cms13tev': Delphes successfully initialised!
+DelphesHandler 'cms13tev': Input file successfully opened!
+AnalysisHandler 'cms13tev': Initialising AnalysisHandler
+AnalysisHandler 'cms13tev': Loading Analysis cms1703_test
+AnalysisHandler 'cms13tev': Successfully loaded analysis cms1703_test
+AnalysisHandler 'cms13tev': Linking to DelphesHandler 'cms13tev' tree
+AnalysisHandler 'cms13tev': AnalysisHandler successfully linked to DelphesHandler 'cms13tev'
+Fritz: Fritz successfully loaded command line parameters!
+Fritz:  >> Successfully initialized and linked all handlers! <<
+Fritz: Starting event loop!
+Fritz: Progress: 100 Events
+Fritz: Progress: 200 Events
+Fritz: Progress: 300 Events
+Fritz: Progress: 400 Events
+Fritz: Progress: 500 Events
+Fritz: Progress: 600 Events
+Fritz: Progress: 700 Events
+Fritz: Progress: 800 Events
+Fritz: Progress: 900 Events
+Fritz: Progress: 1000 Events
+Fritz: Progress: 1100 Events
+Fritz: Progress: 1200 Events
+Fritz: Progress: 1300 Events
+Fritz: Progress: 1400 Events
+Fritz: Progress: 1500 Events
+Fritz: Progress: 1600 Events
+Fritz: Progress: 1700 Events
+Fritz: Progress: 1800 Events
+Fritz: Progress: 1900 Events
+Fritz:  >> Finalising after 1984 events. <<
+AnalysisHandler 'cms13tev': Asking DelphesHandler 'cms13tev' for cross section information
+DelphesHandler 'cms13tev': Asking EventFile 'myprocess' for cross section information
+EventFile 'myprocess':  Returning cross section of 218 fb
+EventFile 'myprocess':  Returning cross section error of 2.18 fb
+AnalysisHandler 'cms13tev': Analyses updated with sigma = 218 fb and dSigma = 2.18 fb
+AnalysisHandler 'cms13tev': Analyses successfully finished!
+DelphesHandler 'cms13tev': Delphes successfully finished!
+Fritz:  >> Done <<

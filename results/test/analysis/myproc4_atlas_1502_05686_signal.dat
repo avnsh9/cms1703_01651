@@ -1,0 +1,22 @@
+# search for massive supersymmetric particles decaying to many jets
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+SR100_7_1  0  0  0  0
+SR120_7_0  0  0  0  0
+SR120_7_1  0  0  0  0
+SR120_7_2  0  0  0  0
+SR140_7_1  0  0  0  0
+SR140_7_2  0  0  0  0
+SR180_7_0  0  0  0  0
+SR180_7_1  0  0  0  0
+SR220_6_1  0  0  0  0
+SR80_7_1  0  0  0  0
+SR80_7_2  0  0  0  0

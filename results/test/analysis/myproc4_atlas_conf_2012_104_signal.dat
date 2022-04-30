@@ -1,0 +1,17 @@
+@#ATLAS
+@#ATLAS-CONF-2012-104
+@#1 lepton + >= 4 jets + etmiss
+@#sqrt(s) = 8 TeV
+@#int(L) = 5.8 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     1.78166e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+el  0  0  0  0
+mu  0  0  0  0

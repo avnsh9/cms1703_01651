@@ -1,0 +1,16 @@
+# cms
+# cms_1504_03198
+# 1 leptons, >=3 jets, >=1 b-jets, etmiss
+# sqrt(s) = 8 TeV
+# int(L) = 19.7 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.05151e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+SR1  0  0  0  0

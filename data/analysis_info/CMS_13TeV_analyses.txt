@@ -5,4 +5,7 @@ cms_sus_16_025      14   electroweakino and stop compressed spectra	12.9	no
 cms_sus_16_048      20   two soft opposite sign leptons		35.9	no             
 
 
-cms1703_01651       20   Search for dark matter                              
+cms1703_test        29   Search for dark matter                              
+test                29   test                                                
+cms1703_01651       28   Search for dark matter                              
+cms1703             29   dark matter                                         

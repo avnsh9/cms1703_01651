@@ -1,0 +1,24 @@
+# two additional searches from stop legacy
+# di-lepton search with MT2 to exploit WW-like signals
+# 2b-jets plus lepton for natural SUSY
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     6.23582e+11
+
+SR  Sum_W  Sum_W2  Acc  N_Norm
+SRexA  0  0  0  0
+SRinA  0  0  0  0
+SRinB  0  0  0  0
+SRinC  0  0  0  0
+WWSR1  0  0  0  0
+WWSR2  0  0  0  0
+WWSR3  0  0  0  0
+WWSR4  0  0  0  0
+WWSR5  0  0  0  0
+WWSR6  0  0  0  0
+WWSR7  0  0  0  0

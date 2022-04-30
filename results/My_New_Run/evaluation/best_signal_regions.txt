@@ -1,0 +1,2 @@
+analysis      sr        o     b     db   s              ds             s95obs  s95exp  robscons       rexpcons       
+cms1703_test  MONOV750  27.0  24.8  3.1  53.8627134022  8.75426117841  14.2    12.5    2.78209331476  3.16045800557  

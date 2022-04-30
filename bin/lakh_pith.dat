@@ -1,0 +1,11 @@
+# This is a minimal working example
+[Parameters]
+Name: lakh_pit_51
+Analyses: cms1703_01651
+
+[myprocess]
+XSect: 62.864 PB 
+
+Events: /home/avnsh9/project/mg5amcatnlo/bin/test_hydronic/Events/run_02/tag_2_pythia8_events.hepmc
+
+

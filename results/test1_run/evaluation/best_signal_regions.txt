@@ -1,0 +1,2 @@
+analysis         sr          o     b     db   s    ds       s95obs  s95exp  robscons  rexpcons  
+atlas_1405_7875  SR05_b.6jm  39.0  33.0  6.0  0.0  2.83063  25.0    20.0    0         0         

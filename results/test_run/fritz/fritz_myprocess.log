@@ -1,0 +1,24 @@
+Fritz: Initialising handlers from file /home/avnsh9/workspace/checkmate2/results/test_run/fritz/myprocess.ini
+DelphesHandler 'atlas8tev': Initialising Delphes via input event /home/avnsh9/workspace/checkmate2/bin/example_run_cards/auxiliary/testfile.hep
+DelphesHandler 'atlas8tev': Input File determined to be STDHEP.
+DelphesHandler 'atlas8tev': Initialising settings from /home/avnsh9/workspace/checkmate2/data/cards/delphes_skimmed_ATLAS.tcl
+DelphesHandler 'atlas8tev': Delphes successfully initialised!
+DelphesHandler 'atlas8tev': Input file successfully opened!
+AnalysisHandler 'atlas8tev': Initialising AnalysisHandler
+AnalysisHandler 'atlas8tev': Loading Analysis atlas_1405_7875
+AnalysisHandler 'atlas8tev': Successfully loaded analysis atlas_1405_7875
+AnalysisHandler 'atlas8tev': Linking to DelphesHandler 'atlas8tev' tree
+AnalysisHandler 'atlas8tev': AnalysisHandler successfully linked to DelphesHandler 'atlas8tev'
+Fritz: Fritz successfully loaded command line parameters!
+Fritz:  >> Successfully initialized and linked all handlers! <<
+Fritz: Starting event loop!
+Fritz: Progress: 100 Events
+Fritz:  >> Finalising after 100 events. <<
+AnalysisHandler 'atlas8tev': Asking DelphesHandler 'atlas8tev' for cross section information
+DelphesHandler 'atlas8tev': Asking EventFile 'myprocess' for cross section information
+EventFile 'myprocess':  Returning cross section of 4 fb
+EventFile 'myprocess':  Returning cross section error of 0 fb
+AnalysisHandler 'atlas8tev': Analyses updated with sigma = 4 fb and dSigma = 0 fb
+AnalysisHandler 'atlas8tev': Analyses successfully finished!
+DelphesHandler 'atlas8tev': Delphes successfully finished!
+Fritz:  >> Done <<

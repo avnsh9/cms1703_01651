@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# !/usr/bin/python3.8
 
 """Calculates CLs for simple one bin counting experiments.
 

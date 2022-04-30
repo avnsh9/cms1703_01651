@@ -1,0 +1,4 @@
+Test: Calculation of r = signal/(95%CL limit on signal)
+Warning: Error is dominated by Monte Carlo Statistics!
+Result: Allowed
+Result for r: 0.105335678327

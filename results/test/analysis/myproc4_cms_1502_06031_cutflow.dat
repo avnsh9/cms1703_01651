@@ -1,0 +1,27 @@
+# cms
+# cms_1502_06031
+# two leptons, jets, missingET
+# sqrt()[D
+# sqrt(s))=8TeV
+# int(L)=19.4 fb^-1
+
+@Inputfile:       
+@XSect:           3.07183e+10 fb
+@ Error:          0 fb
+@MCEvents:        192
+@ SumOfWeights:   192
+@ SumOfWeights2:  192
+@ NormEvents:     5.95936e+11
+
+Cut  Sum_W  Sum_W2  Acc  N_Norm
+CR00_all  192  192  1  5.95936e+11
+CR01_GE2lep  0  0  0  0
+CR02_mll  0  0  0  0
+CR03_GE2jets  0  0  0  0
+CR03_GE2jets_a.lowMET  0  0  0  0
+CR03_GE2jets_b.mediumMET  0  0  0  0
+CR03_GE2jets_c.highMET  0  0  0  0
+CR04_GE3jets  0  0  0  0
+CR04_GE3jets_a.lowMET  0  0  0  0
+CR04_GE3jets_b.mediumMET  0  0  0  0
+CR04_GE3jets_c.highMET  0  0  0  0

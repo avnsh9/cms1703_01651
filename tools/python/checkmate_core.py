@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3.8
 import sys,os
 from math import sqrt
 from copy import deepcopy
@@ -54,6 +54,7 @@ class CheckMATE2:
         # Store internal status
         Info.save(Info.files['internal_info'])        
         self.save(Info.files['internal_processes'])
+
         
     def save(self, filename):
         """ Stores the current status of this instance in a file """
@@ -148,6 +149,11 @@ class CheckMATE2:
             AdvPrint.cout("\t - No analysis step")
         if Info.flags['skippythia']:
             AdvPrint.cout("\t - No pythia step")
+        if Info.flags['simplified_likelihood']:
+            AdvPrint.cout("\t - Calculating maximum log likelihood using simplified likelihood")
+        
+        if Info.flags['ssm'] !=1:
+            AdvPrint.cout("\t - Value of signal strength modifier provided: "+str(Info.flags['ssm']))
         if Info.flags['skipevaluation']:
             AdvPrint.cout("\t - No evaluation step")
         if Info.flags['fullcls']:
@@ -238,6 +244,9 @@ class CheckMATE2:
                 if Info.flags["zsig"]:
                     evaluator.calc_zsig()
                 evaluators[analysis][sr] = evaluator
+                if Info.flags["simplified_likelihood"]:
+                    evaluator.simplified_likelihood()
+
                 
         if Info.parameters["bestcls"] != 0:
             AdvPrint.cout("Calculating CLs for the "+str(Info.parameters["bestcls"])+" most sensitive signal regions!")
